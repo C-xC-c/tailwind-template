@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-template",
+  "version": "1.0.0",
+  "description": "Template tailwindcss project",
+  "scripts": {
+    "dev": "npx rollup -c -w",
+    "publish": "npx rollup -c"
+  },
+  "author": "C-xC-c",
+  "license": "MIT",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "rollup": "^2.26.8",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "^3.1.6",
+    "tailwindcss": "^1.7.6"
+  }
+}

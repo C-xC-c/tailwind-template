@@ -1,0 +1,9 @@
+* tailwind-template
+Barebones tailwindcss template repository, with purgecss and cssnano
+and heck all else.
+
+** Usage
+Clone the repository. Static HTML files live in =public/=, any JS and
+CSS should live in =src/=. Do =npm run dev= for livereloading and
+publish with =npm run publish= which will tree shake and minify your
+CSS.
